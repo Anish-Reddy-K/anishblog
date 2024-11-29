@@ -10,7 +10,7 @@ sourcePath="/Users/anishreddy/Documents/vault/posts/"
 destinationPath="/Users/anishreddy/Code/anishblog/content/posts/"
 
 # Set GitHub Repo
-myrepo="https://github.com/Anish-Reddy-K/anishblog.git"
+myrepo="git@github.com:Anish-Reddy-K/anishblog.git"
 
 # Check for required commands
 for cmd in git rsync python3 hugo; do
