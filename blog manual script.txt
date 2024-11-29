@@ -1,0 +1,17 @@
+rsync -av --delete "/Users/anishreddy/Documents/vault/posts/" "/Users/anishreddy/Code/anishblog/content/posts/"
+
+python3 images.py
+
+hugo
+
+git add .
+
+git commit -m "test sync"
+
+git push -u origin master
+
+git subtree split --prefix public -b hostinger-deploy
+
+git push origin hostinger-deploy:hostinger --force
+
+git branch -D hostinger-deploy
