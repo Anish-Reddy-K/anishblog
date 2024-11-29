@@ -1,5 +1,5 @@
 ---
-title: How to make an Overkilled Blog pipeline
+title: you better work mf
 date: 2024-11-29
 draft: false
 tags:
@@ -18,6 +18,8 @@ testing
 so cool
 
 - [ ] alright bullet test
+
+!![Image Description](/images/Screenshot%202024-11-29%20at%205.06.16%20PM.png)
 - [x] bullet test 2
 
 - 1
