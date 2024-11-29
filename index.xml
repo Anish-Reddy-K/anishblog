@@ -45,5 +45,16 @@ testing&lt;/p&gt;
       
     </item>
     
+    <item>
+      <title>test blog</title>
+      <link>/posts/test-blog/</link>
+      <pubDate>Fri, 29 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/test-blog/</guid>
+      
+      <description>&lt;p&gt;ssss&lt;/p&gt;</description>
+      
+    </item>
+    
   </channel>
 </rss>
