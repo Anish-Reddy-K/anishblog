@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>LLMs Explained in 10 Minutes aikodjn laksndklas | Terminal</title>
+<meta name="keywords" content="">
+<meta name="description" content="Every day we hear about AI taking over jobs, writing novels, and even passing medical exams. But are these things really that smart? Let&rsquo;s break down exactly how they work - no hype, just clear explanations.
+ChatGPT Text prompt: “How many r’s in the word strawberry?
+Re-ask: “Think again, and answer carefully”
+[Intro]
+Disclaimer: This is not going to be a deep dive into all the details, we will rely heavily on intuition, visuals and  simplification for the sake of easier understanding. In reality, things are a bit more complex and have much more math involved.">
+<meta name="author" content="">
+<link rel="canonical" href="/posts/llms-explained-in-10-minutes-1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d6fcd20a4fb86efa4dfac8ec95da60244cc8871042183da1ef28e3a762ad79c8.css" integrity="sha256-1vzSCk&#43;4bvpN&#43;sjsldpgJEzIhxBCGD2h7yjjp2Ktecg=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/llms-explained-in-10-minutes-1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="/posts/llms-explained-in-10-minutes-1/">
+  <meta property="og:site_name" content="Terminal">
+  <meta property="og:title" content="LLMs Explained in 10 Minutes aikodjn laksndklas">
+  <meta property="og:description" content="Every day we hear about AI taking over jobs, writing novels, and even passing medical exams. But are these things really that smart? Let’s break down exactly how they work - no hype, just clear explanations.
+ChatGPT Text prompt: “How many r’s in the word strawberry?
+Re-ask: “Think again, and answer carefully”
+[Intro]
+Disclaimer: This is not going to be a deep dive into all the details, we will rely heavily on intuition, visuals and simplification for the sake of easier understanding. In reality, things are a bit more complex and have much more math involved.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-12-09T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-09T00:00:00+00:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="LLMs Explained in 10 Minutes aikodjn laksndklas">
+<meta name="twitter:description" content="Every day we hear about AI taking over jobs, writing novels, and even passing medical exams. But are these things really that smart? Let&rsquo;s break down exactly how they work - no hype, just clear explanations.
+ChatGPT Text prompt: “How many r’s in the word strawberry?
+Re-ask: “Think again, and answer carefully”
+[Intro]
+Disclaimer: This is not going to be a deep dive into all the details, we will rely heavily on intuition, visuals and  simplification for the sake of easier understanding. In reality, things are a bit more complex and have much more math involved.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "LLMs Explained in 10 Minutes aikodjn laksndklas",
+      "item": "/posts/llms-explained-in-10-minutes-1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "LLMs Explained in 10 Minutes aikodjn laksndklas",
+  "name": "LLMs Explained in 10 Minutes aikodjn laksndklas",
+  "description": "Every day we hear about AI taking over jobs, writing novels, and even passing medical exams. But are these things really that smart? Let\u0026rsquo;s break down exactly how they work - no hype, just clear explanations.\nChatGPT Text prompt: “How many r’s in the word strawberry?\nRe-ask: “Think again, and answer carefully”\n[Intro]\nDisclaimer: This is not going to be a deep dive into all the details, we will rely heavily on intuition, visuals and simplification for the sake of easier understanding. In reality, things are a bit more complex and have much more math involved.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "Every day we hear about AI taking over jobs, writing novels, and even passing medical exams. But are these things really that smart? Let’s break down exactly how they work - no hype, just clear explanations.\nChatGPT Text prompt: “How many r’s in the word strawberry?\nRe-ask: “Think again, and answer carefully”\n[Intro]\nDisclaimer: This is not going to be a deep dive into all the details, we will rely heavily on intuition, visuals and simplification for the sake of easier understanding. In reality, things are a bit more complex and have much more math involved.\n[“English is the hottest new programming language.” - andrej]\nAI Landscape\nWhere do LLMs fit in the bigger picture?\n[Animated Hierarchy Diagram]\nArtificial Intelligence (Machines that can perform “intelligent” tasks) - Machine Learning (Systems that learn from data)\n- Deep Learning (Neural networks that can learn complex patterns)\n- Natural Language Processing (Understanding and generating human language)\n- Large Language Models (Advanced text understanding and generation)\nThe goal of Machine Learning is to discover patterns in data.\nToken\nTo understand LLMs, we first need to know how they see text.\nA token is a unit of text, it is not equivalent to a word (Although, for convenience ‘word’ and ‘token’ are used interchangeably.) It could be a single character, parts of a word, a whole word, or even a whole phrase. The sentence “Nothing tops a plain pizza.” might be broken down into [V], it depends on the tokenization method used.\nTokenization is the process of breaking down large text into smaller units (tokens) so that it can be processed by LLMs.\nWord embeddings: Giving words meaning\nOnce tokenized, we need a way for LLMs to understand meaning. But computers work with numbers, not words, so we convert words into vectors, a process known as word embedding\n[Animation showing transformation] w/ a disclaimer of fake vectors\nWord: “cat” → Vector: [0.2, 0.1, 0.3]\nWord: “dog” → Vector: [0.25, 0.15, 0.28]\nWord: “car” → Vector: [0.8, 0.6, 0.1]\nWords with similar meanings are represented by vectors that are closer together. ‘Cat’ and ‘Dog’ will have vectors closer than ‘Cat’ and ‘Car’.\nWord embeddings let LLMs capture the relationships between words. This is why, for instance, if you take the vector for ‘king,’ subtract ‘man,’ and add ‘woman,’ you get close to ‘queen.’\nSo far, we took a sentence, broke it into words, and converted these words into word embeddings, which contain semantic and syntactic meaning embedded within them.\nNow all these word embeddings or vector embeddings are stored in a vector database.\nThe Neural Network\nHumans think through language. When we talk to ourselves or think through problems, we don’t always know what we’ll say next; it’s a process unfolding moment-by-moment, it’s like our own inner language model inside the brain.\nLike right now, I don’t even know what I’m going to say next… this part was not scripted!\nAt its core, an LLM is a very large neural network.\nA neural network is a sequence of many connected layers of ‘neurons.’ Information starts at the input layer, passes through these layers to help predict outcomes, like guessing the next word in a sentence.\n[Input: Cat image -\u003e NN -\u003e Output probability chart]\nLarge Language Models\nIt is a type of neural network.\nLarge = large number of neurons, also called parameters, in the neural network.\n[GPT-4 has X trillion neurons, a human brain has 100 B)\nLanguage Model = learn to predict the next word\nThe input to the model is a string of text, and its goal is to predict the next word based on what it has seen so far. Language modeling, or learning to predict that next word, is the core job of an LLM.\"\n[Next word prediction NN Prob char visual]\nInput Layer: Receives the embedded words\nHidden Layers: Process the information\nOutput Layer: Predicts the next word\nTraining Process\nWe need to “train” the neural net to predict the next word. And to do that, we need data, a lot of data.\nThanks to the internet, we have a lot of text data: books, articles, code, conversations, etc. So we create a massive dataset from the internet. We feed this massive text dataset into the model, teaching it to predict the next word in all the different contexts, which enables it to handle everything from generating poems to writing code.\nGenerative AI\nLLMs are an example of Generative AI since they generate new text. But they don’t always just pick the most probable word. Sometimes we want them to be creative, to add a bit of ‘randomness’ to responses. This is done using a setting called Temperature.\nA higher temperature means more creative responses, while a lower temperature yields safer, more predictable ones. This is why you might get different answers each time you ask the same question.\nGPT\nG = generative, means next word prediction\nP = pre-trained - first phase of training\nPre-training - training on a massive, general dataset\nFine Tuning - refining for specific tasks using carefully curated data\nChat in ChatGPT stands for it has been refined for chatting and q and a style output\nReinforcement learning from human feedback (RLHF) - Humans help the model understand which responses are better\nT = transformer -\n[2017] Google deep minds - attention is all you need - The breakthrough that made modern LLMs possible: “Attention”\n-\u003e transformer architecture is a specific neural network architecture, and it works so well because it can focus its “attention” on the parts of the input sequence that are most relevant at any time and not the whole thing\nWhen you read ‘The bank is by the river’, you know which ‘bank’ we mean because you pay attention to the context ‘river’. In this entire sentence, the only relevant words are ‘bank’ and ‘river’, ‘attention’ is what helps us identify that.\n[“The bank is by the river.”]\n[“The bank is by the building.”]\nWithout attention, the word bank in these two cases will be embedded in the same way, but after the attention layers, these same words now have the meaning of their context embedded within the vectors.\nLimits of LLMs\nLLMs generate human-like text, not true text. They can sometimes ‘hallucinate’—confidently generating incorrect or nonsensical information.\nSo now you understand the basics of how LLMs work. Do you think they are ‘smart’ or ‘magical’?\nBecause all it’s doing is predicting the next word one at a time. The magical part is in how well it works.\nWhat makes LLMs so useful is, when faced with something they have never seen before, they perform very well. This is also called Zero shot learning.\nLLMs are limited by the amount of text they can see at once, also known as Context Window.\n[Example]\nWe can make the outputs better by providing examples on how to generate the answer. Works amazing when we want a specific output format. Also called Few Shot learning.\nNow ask the model to think step by step, and the results are significantly better. This is what roughly the new OpenAI o1 models do, they ‘think’ in the background and provide reasoning to the answers generated. This is also called chain-of-thought prompting.\nThis is why in the start, when we asked gpt to think step-by-step, we got the right answer for “how many r’s in a strawberry?”.\nConclusion\nAre LLMs actually smart? Well, that is up for debate. Some say, for it to be this incredibly good at next-word-prediction, the LLM must actually acquire an understanding of the word internally.\nOthers argue that the model simply learned to memorize and copy patterns seen during training, and has no actual understanding of language, the world or anything else. This side argues that They’re not magic, but they’re math. Very impressive math, but still just pattern recognition at an enormous scale.\nThis is also called the ‘Black Box Problem’\nThe black box problem describes the inability to fully understand or explain how LLMs arrive at their outputs. Despite knowing the general architecture and training process, we cannot trace the exact reasoning path for ‘why’ specific decisions were made by these models.\n[Outro]\n**\n",
+  "wordCount" : "1363",
+  "inLanguage": "en",
+  "datePublished": "2024-12-09T00:00:00Z",
+  "dateModified": "2024-12-09T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/llms-explained-in-10-minutes-1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Terminal",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Terminal (Alt + H)">Terminal</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="/showcase" title="Showcase">
+                    <span>Showcase</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      LLMs Explained in 10 Minutes aikodjn laksndklas
+    </h1>
+    <div class="post-meta"><span title='2024-12-09 00:00:00 +0000 UTC'>December 9, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Every day we hear about AI taking over jobs, writing novels, and even passing medical exams. But are these things really that smart? Let&rsquo;s break down exactly how they work - no hype, just clear explanations.</p>
+<p>ChatGPT Text prompt: “How many r’s in the word strawberry?</p>
+<p>Re-ask: “Think again, and answer carefully”</p>
+<p>[Intro]</p>
+<p>Disclaimer: This is not going to be a deep dive into all the details, we will rely heavily on intuition, visuals and  simplification for the sake of easier understanding. In reality, things are a bit more complex and have much more math involved.</p>
+<p>[“English is the hottest new programming language.” - andrej]</p>
+<p>AI Landscape</p>
+<p>Where do LLMs fit in the bigger picture?</p>
+<p>[Animated Hierarchy Diagram]</p>
+<ul>
+<li>Artificial Intelligence (Machines that can perform &ldquo;intelligent&rdquo; tasks)</li>
+</ul>
+<p>  - Machine Learning (Systems that learn from data)</p>
+<p>    - Deep Learning (Neural networks that can learn complex patterns)</p>
+<p>      - Natural Language Processing (Understanding and generating human language)</p>
+<p>        - Large Language Models (Advanced text understanding and generation)</p>
+<p>The goal of Machine Learning is to discover patterns in data.</p>
+<p>Token</p>
+<p>To understand LLMs, we first need to know how they see text.</p>
+<p>A token is a unit of text, it is not equivalent to a word (Although, for convenience ‘word’ and ‘token’ are used interchangeably.) It could be a single character, parts of a word, a whole word, or even a whole phrase. </p>
+<p>The sentence “Nothing tops a plain pizza.” might be broken down into [V], it depends on the tokenization method used.</p>
+<p>Tokenization is the process of breaking down large text into smaller units (tokens) so that it can be processed by LLMs.</p>
+<p>Word embeddings: Giving words meaning</p>
+<p>Once tokenized, we need a way for LLMs to understand meaning. But computers work with numbers, not words, so we convert words into vectors, a process known as word embedding</p>
+<p>[Animation showing transformation] w/ a disclaimer of fake vectors</p>
+<p>Word: &ldquo;cat&rdquo; → Vector: [0.2, 0.1, 0.3]</p>
+<p>Word: &ldquo;dog&rdquo; → Vector: [0.25, 0.15, 0.28]</p>
+<p>Word: &ldquo;car&rdquo; → Vector: [0.8, 0.6, 0.1]</p>
+<p>Words with similar meanings are represented by vectors that are closer together. ‘Cat’ and ‘Dog’ will have vectors closer than ‘Cat’ and ‘Car’.</p>
+<p>Word embeddings let LLMs capture the relationships between words. This is why, for instance, if you take the vector for &lsquo;king,&rsquo; subtract &lsquo;man,&rsquo; and add &lsquo;woman,&rsquo; you get close to &lsquo;queen.&rsquo;</p>
+<p>So far, we took  a sentence, broke it into words, and converted  these words into word embeddings, which contain semantic and syntactic meaning embedded within them.</p>
+<p>Now all these word embeddings or vector embeddings are stored in a vector database.</p>
+<p>The Neural Network</p>
+<p>Humans think through language. When we talk to ourselves or think through problems, we don’t always know what we’ll say next; it’s a process unfolding moment-by-moment, it’s like our own inner language model inside the brain.</p>
+<p>Like right now, I don’t even know what I’m going to say next… this part was not scripted!</p>
+<p>At its core, an LLM is a very large neural network.</p>
+<p>A neural network is a sequence of many connected layers of ‘neurons.’ Information starts at the input layer, passes through these layers to help predict outcomes, like guessing the next word in a sentence.</p>
+<p>[Input: Cat image -&gt; NN -&gt; Output probability chart]</p>
+<p>Large Language Models</p>
+<p>It is a type of neural network.</p>
+<p>Large = large number of neurons, also called parameters, in the neural network.</p>
+<p>[GPT-4 has X trillion neurons, a human brain has 100 B)</p>
+<p>Language Model = learn to predict the next word</p>
+<p>The input to the model is a string of text, and its goal is to predict the next word based on what it has seen so far. Language modeling, or learning to predict that next word, is the core job of an LLM.&quot;</p>
+<p>[Next word prediction NN Prob char visual]</p>
+<p><img loading="lazy" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcISKO9LTQUcbATrLHBc3VI5IpkgBUGVY8VcEhrDO8HiphMxeFJfxY5XhOyHo2hLr63phdWpq1_Qbpskr3i9aoYR7p4toa0vGv91MiAQnwOMR3sf203BAsB93tF0SwT9jNnb-EQh_4TlqPjksOpTPnXMynO?key=D4_TYKD0aFMwoMQreaJacA"></p>
+<p>Input Layer: Receives the embedded words</p>
+<p>Hidden Layers: Process the information</p>
+<p>Output Layer: Predicts the next word</p>
+<p>Training Process</p>
+<p>We need to “train” the  neural net to predict the next word. And to do that, we need data, a lot of data.</p>
+<p>Thanks to the internet, we have a lot of text data: books, articles, code, conversations,  etc. </p>
+<p>So we create a massive dataset from the internet. </p>
+<p>We feed this massive text dataset into the model, teaching it to predict the next word in all the different contexts, which enables it to handle everything from generating poems to writing code.</p>
+<p>Generative AI</p>
+<p>LLMs are an example of Generative AI since they generate new text. But they don’t always just pick the most probable word. Sometimes we want them to be creative, to add a bit of ‘randomness’ to responses. This is done using a setting called Temperature.</p>
+<p>A higher temperature means more creative responses, while a lower temperature yields safer, more predictable ones. This is why you might get different answers each time you ask the same question.</p>
+<p>GPT</p>
+<p><img loading="lazy" src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXePIVsZ4v0V4GQMTaoGFTy5BXaiGwhQx6MrBZyW67_kZvU-UW-JpqARW2lFoyGJkSfuwXipTG95kPdOnNgLER37W9WP6EHAoS9Um41LG4DOSnn_i6NHEELvL9lrwanDvPnCSaSsM4HEK_VWT0ZYdpsLvWsc?key=D4_TYKD0aFMwoMQreaJacA"></p>
+<p>G = generative, means  next word prediction</p>
+<p>P = pre-trained - first phase of training</p>
+<ul>
+<li>
+<p>Pre-training - training on a massive, general dataset</p>
+</li>
+<li>
+<p>Fine Tuning - refining for specific tasks using carefully curated data</p>
+</li>
+<li>
+<p>Chat in ChatGPT stands for it has been refined for chatting and q and a style output</p>
+</li>
+<li>
+<p>Reinforcement learning from human feedback (RLHF) - Humans help the model understand which responses are better</p>
+</li>
+</ul>
+<p>T = transformer -</p>
+<p>[2017] Google deep minds - attention is all you need - The breakthrough that made modern LLMs possible: “Attention”</p>
+<p>-&gt; transformer architecture is a specific neural network architecture, and it works so well because it can focus its “attention” on the parts of the input sequence that are most relevant at any time and not the whole thing</p>
+<p>When you read &lsquo;The bank is by the river&rsquo;, you know which &lsquo;bank&rsquo; we mean because you pay attention to the context &lsquo;river&rsquo;. In this entire sentence, the only relevant words are ‘bank’ and ‘river’, ‘attention’ is what helps us identify that.</p>
+<p>[“The bank is by the river.”]</p>
+<p>[“The bank is by the building.”]</p>
+<p>Without attention, the word bank in these two cases  will be embedded in the same way, but after the attention layers, these same words now have the meaning of their context embedded within the vectors.</p>
+<p>Limits of LLMs</p>
+<p>LLMs generate human-like text, not true text. They can sometimes ‘hallucinate’—confidently generating incorrect or nonsensical information.</p>
+<p>So now you understand the basics of how LLMs work. Do you think they are ‘smart’ or ‘magical’?</p>
+<p>Because all it&rsquo;s doing is predicting the next word one at a time. The magical part is in how well it works.</p>
+<p>What makes LLMs so useful is, when faced with something they have never seen before, they perform very well. This is also called Zero shot learning.</p>
+<p>LLMs are limited by the amount of text they can see at once, also known as Context Window.</p>
+<p>[Example]</p>
+<p>We can make the outputs better by providing examples on how to generate the answer. Works amazing when we want a specific output format. Also called Few Shot learning.</p>
+<p>Now ask the model to think step by step, and the results are significantly better. This is what roughly the new OpenAI o1 models do, they ‘think’ in the background and provide reasoning to the answers generated. This is also called chain-of-thought prompting.</p>
+<p>This is why in the start, when we asked gpt to think step-by-step, we got the right answer for “how many r’s in a strawberry?”.</p>
+<p>Conclusion</p>
+<p>Are LLMs actually smart? Well, that is up for debate. Some say, for it to be this incredibly good at next-word-prediction, the LLM must actually acquire an understanding of the word internally.</p>
+<p>Others argue that the model simply learned to memorize and copy patterns seen during training, and has no actual understanding of language, the world or anything else. This side argues that They&rsquo;re not magic, but they&rsquo;re math. Very impressive math, but still just pattern recognition at an enormous scale.</p>
+<p>This is also called the ‘Black Box Problem’</p>
+<p>The black box problem describes the inability to fully understand or explain how LLMs arrive at their outputs. Despite knowing the general architecture and training process, we cannot trace the exact reasoning path for ‘why’ specific decisions were made by these models.</p>
+<p>[Outro]</p>
+<p>**</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="/">Terminal</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

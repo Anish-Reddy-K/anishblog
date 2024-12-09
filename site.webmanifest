@@ -1,9 +1,9 @@
 {
     "name": "Terminal",
     "short_name": "Terminal",
-    "start_url": "/",
+    "start_url": "//localhost:1313/",
     "theme_color": "#434648",
-    "background_color": "#ffffff",
+    "background_color": "#131418",
     "display": "standalone",
     "icons": [
         {
